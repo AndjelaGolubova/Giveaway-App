@@ -1,6 +1,6 @@
 READ ME
 
-При издработка е искористено и слдниот поглед
+При издработка е искористен и слeдниот поглед
 
 create or replace view top3_giveaways as
 select id, creator_username, count(gp) from giveaway g left join giveaway_participants gp on g.id = gp.giveaway_id
